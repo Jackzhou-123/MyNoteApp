@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">笔记本</string>
+    <string name="add_note">添加笔记</string>
+    <string-array name="category_array">
+        <item>全部</item>
+        <item>工作</item>
+        <item>学习</item>
+        <item>生活</item>
+    </string-array>
+
+</resources>

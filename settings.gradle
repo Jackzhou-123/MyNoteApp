@@ -1,0 +1,12 @@
+// Myshadiao_skin1/settings.gradle
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "Myshadiao_skin1"
+include ':app'

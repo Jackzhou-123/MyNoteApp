@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 你定义了一个名为 Theme.Myshadiao_skin1 的主题，继承自 Material 风格（无 ActionBar、支持夜间模式） -->
+    <style name="Theme.Myshadiao_skin1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- 设置应用的主色调（大部分组件的主题色），如按钮、标题背景等 -->
+        <item name="colorPrimary">@color/wood_medium</item>
+
+        <!-- 设置主色调的“加深版”颜色，比如滚动时 CollapsingToolbar 的颜色、状态栏变暗等 -->
+        <item name="colorPrimaryVariant">@color/wood_dark</item>
+
+        <!-- 设置主色调上文字或图标的颜色，比如按钮上的字是白字还是黑字 -->
+        <item name="colorOnPrimary">@color/text_primary</item>
+
+        <!-- 设置次要颜色，一般用于强调、浮动按钮、小部件等次要元素 -->
+        <item name="colorSecondary">@color/wood_dark</item>
+
+        <!-- 设置整个 App 的窗口背景色（包括启动页、Activity 背景等） -->
+        <item name="android:windowBackground">@color/wood_light</item>
+
+        <!-- 设置大多数控件默认的文字颜色（不推荐直接用，全局文字颜色建议用 TextAppearance 控制） -->
+        <item name="android:textColor">@color/text_primary</item>
+
+        <!-- 设置 Android 系统控件的默认背景色（部分控件会读取这个颜色，比如 EditText） -->
+        <item name="android:colorBackground">@color/wood_light</item>
+
+        <!-- 设置状态栏颜色（屏幕最上面那条） -->
+        <item name="android:statusBarColor">@color/green</item>
+
+        <!-- 设置导航栏颜色（屏幕最底下的虚拟返回、主页、多任务按钮栏） -->
+        <item name="android:navigationBarColor">@color/green</item>
+
+    </style>
+</resources>

@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/wood_medium" /> <!-- 默认色，会被 setTint 动态改变 -->
+    <corners android:radius="16dp" />
+</shape>
