@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace 'com.example.myshadiao_skin1'
+    namespace 'com.example.myshadiao_250'
 
     // ✅ 将 compileSdk 和 targetSdk 更新为 34，满足 Room 的最低要求
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.myshadiao_skin1"
+        applicationId "com.example.myshadiao_250"
         minSdk 21
         targetSdk 34
         versionCode 1

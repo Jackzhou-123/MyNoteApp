@@ -1,5 +1,5 @@
 // 包名
-package com.example.myshadiao_skin1;
+package com.example.myshadiao_250;
 
 // 导入 Room 相关注解
 import androidx.room.Entity;        // 表明这个类是一个数据库表

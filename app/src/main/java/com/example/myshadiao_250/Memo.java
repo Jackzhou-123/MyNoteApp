@@ -1,4 +1,4 @@
-package com.example.myshadiao_skin1;
+package com.example.myshadiao_250;
 
 public class Memo {
     public String content;
