@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         // 1. 绑定布局中的控件
         recyclerView = findViewById(R.id.recyclerView);
-        FloatingActionButton fab = findViewById(R.id.fab);      
+        FloatingActionButton fab = findViewById(R.id.fab);
         titleText = findViewById(R.id.titleText);
         arrowIcon = findViewById(R.id.arrowIcon);
         filterSpinner = findViewById(R.id.filterSpinner); // 获取标签筛选控件
